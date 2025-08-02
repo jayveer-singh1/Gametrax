@@ -1,10 +1,11 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 
 const socialLinks = [
-  { href: "https://discord.com", icon: <FaDiscord /> },
-  { href: "https://twitter.com", icon: <FaTwitter /> },
-  { href: "https://youtube.com", icon: <FaYoutube /> },
-  { href: "https://medium.com", icon: <FaMedium /> },
+  { href: "https://x.com/Jayveer74857519", icon: <FaX /> },
+  { href: "https://www.linkedin.com/in/jayveer-singh1", icon: <FaLinkedinIn /> },
+  { href: "https://www.instagram.com/jayveer_singh_93", icon: <FaInstagram /> },
+  { href: "https://github.com/jayveer-singh1", icon: <FaGithub /> },
 ];
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
     <footer className="w-screen bg-[#5542ff] py-4 text-black">
       <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row">
         <p className="text-center text-sm font-light md:text-left">
-          ©Nova 2024. All rights reserved
+          ©Jayveer Singh 2025. All rights reserved
         </p>
 
         <div className="flex justify-center gap-4  md:justify-start">
